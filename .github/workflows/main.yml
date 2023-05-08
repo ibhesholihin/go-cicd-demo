@@ -2,7 +2,7 @@ name: Testing CICD golang
 
 on:
     push: 
-        branches: [ "master" ]
+        branches: [ "main" ]
         tags:
             - "*.*.*"
 
